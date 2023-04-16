@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Voice Assistant MVP",
+    "version": "0.1",
+    "description": "A minimal voice assistant Chrome extension",
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": ["tabs"]
+  }
+  
