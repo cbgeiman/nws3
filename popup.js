@@ -4,7 +4,7 @@ document.getElementById("voiceButton").addEventListener("click", () => {
     recognition.continuous = false;
   
     recognition.addEventListener("result", (event) => {
-      const responseText = "Hello! Your voice has been recognized.";
+      const responseText = "Hello! I'll be able to have a conversation with you soon, but this is all I can say right now.";
       const utterance = new SpeechSynthesisUtterance(responseText);
       speechSynthesis.speak(utterance);
     });
